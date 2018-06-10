@@ -1,0 +1,41 @@
+baseurl = "https://xfernando.com/"
+languageCode = "en"
+
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+googleAnalytics = "UA-115766153-1"
+# enableRobotsTXT = true
+title = "xfernando"
+
+[params]
+    author = "Fernando Henrique Calheiros Lopes"
+    description = "Naming things, invalidating caches and making off-by-1 errors"
+    authorimage = "/img/avatar.jpg"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id" 
+
+## Social Accounts
+[params.social]
+    github = "xfernando"
+    # instagram = "<username>"
+    # xing = "<username>"
+    linkedin = "xfernando"
+    twitter = "xfernando_"
+    email = "xfernando@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
